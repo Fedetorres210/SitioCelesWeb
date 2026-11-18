@@ -26,5 +26,4 @@ Y abrí http://localhost:8000
 ## Pendientes antes de publicar
 
 - Confirmar con el BCR el enlace de **"Solicitá tu tarjeta"** (hoy apunta a https://www.bancobcr.com).
-- Reemplazar `assets/img/logo-bcr.png` por el logo oficial en alta calidad (el actual es un recorte de las piezas de Instagram).
 - Validar con el BCR los textos explicativos y el uso de las imágenes del tucán.
