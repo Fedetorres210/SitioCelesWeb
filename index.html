@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tu primera tarjeta de crédito | BCR</title>
+  <meta name="description" content="Qué es una tarjeta de crédito, cómo funciona, mitos y realidades y tips para usarla con responsabilidad. Una guía simple para jóvenes del Banco de Costa Rica.">
+  <meta name="theme-color" content="#2A5CA8">
+  <meta property="og:title" content="Primera tarjeta. Primeras decisiones. | BCR">
+  <meta property="og:description" content="Todo lo que necesitás saber para usar tu primera tarjeta de crédito con cabeza.">
+  <meta property="og:image" content="assets/img/tucan-saluda.png">
+  <link rel="icon" type="image/png" href="assets/img/tucan-saluda.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <!-- ============ MENÚ ============ -->
+  <header class="nav" id="inicio">
+    <div class="container nav__inner">
+      <a href="#inicio" class="nav__logo" aria-label="BCR, ir al inicio">
+        <img src="assets/img/logo-bcr.png" alt="BCR – Somos el Banco de Costa Rica" width="157" height="60">
+      </a>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav__menu" id="menu" aria-label="Secciones">
+        <a href="#que-es">¿Qué es?</a>
+        <a href="#como-funciona">Cómo funciona</a>
+        <a href="#mitos">Mitos</a>
+        <a href="#tips">Tips</a>
+        <!-- TODO: confirmar con el BCR el enlace exacto de solicitud de la tarjeta -->
+        <a href="https://www.bancobcr.com" class="btn btn--navy nav__cta" target="_blank" rel="noopener">Solicitá tu tarjeta</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <!-- ============ PORTADA ============ -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <span class="pill">Tu primera tarjeta de crédito</span>
+          <h1>Primera tarjeta.<br>Primeras <span class="hl-yellow">decisiones.</span></h1>
+          <p class="hero__lead">Te explicamos en palabras simples qué es una tarjeta de crédito, cómo funciona y cómo usarla con cabeza para que tomés buenas decisiones desde el día uno.</p>
+          <div class="hero__actions">
+            <a href="#que-es" class="btn btn--yellow">Empezá aquí <span aria-hidden="true">↓</span></a>
+            <a href="#mitos" class="btn btn--outline">Ver mitos y realidades</a>
+          </div>
+          <p class="hero__tagline">Tu independencia empieza con tus decisiones.</p>
+        </div>
+        <div class="hero__visual" aria-hidden="true">
+          <div class="hero__circle"></div>
+          <img class="hero__tucan" src="assets/img/tucan-saluda.png" alt="" width="720" height="720">
+          <img class="hero__card" src="assets/img/tarjeta-bcr.png" alt="" width="720" height="452">
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ¿QUÉ ES? ============ -->
+    <section class="section" id="que-es">
+      <div class="container">
+        <div class="split">
+          <div class="split__text">
+            <p class="eyebrow">Lo básico</p>
+            <h2>¿Qué es una tarjeta de crédito?</h2>
+            <p class="lead">Es una forma de pagar con dinero que el banco te presta. Comprás hoy y le devolvés ese dinero al banco después, normalmente una vez al mes.</p>
+            <div class="callout">
+              <p><strong>Pensalo así:</strong> el banco te presta hasta un monto máximo, llamado <strong>límite de crédito</strong>. Todo lo que usás, lo tenés que devolver.</p>
+            </div>
+          </div>
+          <div class="split__visual" aria-hidden="true">
+            <div class="blob"></div>
+            <img class="card-tilt" src="assets/img/tarjeta-bcr.png" alt="" width="720" height="452" loading="lazy">
+          </div>
+        </div>
+
+        <div class="compare">
+          <article class="compare__item">
+            <p class="eyebrow">¿Cuál es la diferencia?</p>
+            <h3>Tarjeta de débito</h3>
+            <p>Gastás tu propio dinero, el que ya tenés en tu cuenta. Si no hay saldo, no hay compra.</p>
+          </article>
+          <article class="compare__item compare__item--dark">
+            <p class="eyebrow">¿Cuál es la diferencia?</p>
+            <h3>Tarjeta de crédito</h3>
+            <p>Gastás dinero del banco que después le pagás. Por eso es clave usar solo lo que podés devolver.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CÓMO FUNCIONA ============ -->
+    <section class="section section--light" id="como-funciona">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow">Paso a paso</p>
+          <h2>¿Cómo funciona?</h2>
+          <p class="lead">Tu tarjeta funciona en un ciclo que se repite cada mes. Son solo 4 pasos:</p>
+        </header>
+
+        <ol class="steps">
+          <li class="step">
+            <span class="step__num">1</span>
+            <h3>Comprás</h3>
+            <p>Pagás con tu tarjeta en una tienda o en línea. El banco paga por vos en ese momento.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">2</span>
+            <h3>Fecha de corte</h3>
+            <p>Un día al mes el banco suma todas tus compras y te envía el estado de cuenta con el total.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">3</span>
+            <h3>Fecha de pago</h3>
+            <p>Es el último día para pagar lo que gastaste. Llega unos días después de la fecha de corte.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">4</span>
+            <h3>Pagás</h3>
+            <p>Si pagás el total a tiempo, no pagás intereses. Si pagás solo el mínimo, lo que queda genera intereses.</p>
+          </li>
+        </ol>
+
+        <aside class="dato" aria-label="Dato de Tucán">
+          <div class="dato__board">
+            <span class="pill">Dato de Tucán</span>
+            <p class="dato__title">Fecha de corte y fecha de pago <span class="hl-blue">no son</span> el mismo día.</p>
+            <span class="dato__underline" aria-hidden="true"></span>
+            <p class="dato__text">Entre una y otra tenés unos días para pagar. Anotá las dos fechas para que nunca te agarren por sorpresa.</p>
+          </div>
+          <img class="dato__tucan" src="assets/img/tucan-presenta.png" alt="Tucán, la mascota del BCR, señalando la pizarra" width="720" height="720" loading="lazy">
+        </aside>
+
+        <div class="glossary">
+          <h3 class="glossary__title">Palabras que vas a escuchar</h3>
+          <dl class="glossary__grid">
+            <div class="term"><dt>Límite de crédito</dt><dd>El monto máximo que el banco te presta. Es un tope, no una meta.</dd></div>
+            <div class="term"><dt>Pago mínimo</dt><dd>Lo menos que podés pagar para no atrasarte. Lo que queda genera intereses.</dd></div>
+            <div class="term"><dt>Pago de contado</dt><dd>Pagar todo lo que gastaste en el mes. Así evitás pagar intereses.</dd></div>
+            <div class="term"><dt>Historial crediticio</dt><dd>El registro de cómo pagás. Los bancos lo revisan cuando pedís un préstamo.</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MITOS Y REALIDADES ============ -->
+    <section class="section section--blue" id="mitos">
+      <div class="container">
+        <div class="mitos__head">
+          <header class="section__head">
+            <span class="pill">Mitos y realidades</span>
+            <h2>Lo que te dijeron vs. lo que realmente es.</h2>
+            <p class="lead">Estas son 9 ideas que se escuchan mucho sobre las tarjetas de crédito. <strong>Tocá cada tarjeta</strong> para descubrir la realidad.</p>
+          </header>
+          <img class="mitos__tucan" src="assets/img/tucan-piensa.png" alt="Tucán pensando" width="720" height="720" loading="lazy">
+        </div>
+
+        <div class="myths" id="myths">
+          <button class="myth" type="button" aria-pressed="false">
+            <span class="myth__inner">
+              <span class="myth__face myth__front">
+                <span class="pill">Mito #1</span>
+                <span class="myth__quote"><s>“Una tarjeta de crédito es plata gratis.”</s></span>
+                <span class="myth__hint">Tocá para ver la realidad <span aria-hidden="true">↻</span></span>
+              </span>
+              <span class="myth__face myth__back">
+                <span class="pill">Mito #1</span>
+                <span class="myth__label">La realidad</span>
+                <span class="myth__reality">Es una herramienta: usás lo que podés pagar y cada pago puntual construye tu historial crediticio.</span>
+                <span class="myth__hint myth__hint--back">Tocá para volver <span aria-hidden="true">↻</span></span>
+              </span>
+            </span>
+          </button>
+          <button class="myth" type="button" aria-pressed="false">
+            <span class="myth__inner">
+              <span class="myth__face myth__front">
+                <span class="pill">Mito #2</span>
+                <span class="myth__quote"><s>“Si tengo tarjeta de crédito, me voy a endeudar.”</s></span>
+                <span class="myth__hint">Tocá para ver la realidad <span aria-hidden="true">↻</span></span>
+              </span>
+              <span class="myth__face myth__back">
+                <span class="pill">Mito #2</span>
+                <span class="myth__label">La realidad</span>
+                <span class="myth__reality">La deuda no viene de tener la tarjeta, sino de gastar más de lo que podés pagar. Con un plan, es solo una herramienta.</span>
+                <span class="myth__hint myth__hint--back">Tocá para volver <span aria-hidden="true">↻</span></span>
+              </span>
+            </span>
+          </button>
+          <button class="myth" type="button" aria-pressed="false">
+            <span class="myth__inner">
+              <span class="myth__face myth__front">
+                <span class="pill">Mito #3</span>
+                <span class="myth__quote"><s>“Todavía no necesito historial crediticio.”</s></span>
+                <span class="myth__hint">Tocá para ver la realidad <span aria-hidden="true">↻</span></span>
+              </span>
+              <span class="myth__face myth__back">
+                <span class="pill">Mito #3</span>
+                <span class="myth__label">La realidad</span>
+                <span class="myth__reality">Cuando quieras tu primer carro o apartamento, el banco va a mirar cómo has pagado. Empezá a construirlo desde hoy.</span>
+                <span class="myth__hint myth__hint--back">Tocá para volver <span aria-hidden="true">↻</span></span>
+              </span>
+            </span>
+          </button>
+          <button class="myth" type="button" aria-pressed="false">
+            <span class="myth__inner">
+              <span class="myth__face myth__front">
+                <span class="pill">Mito #4</span>
+                <span class="myth__quote"><s>“Uno debe usar la tarjeta de crédito para todo.”</s></span>
+                <span class="myth__hint">Tocá para ver la realidad <span aria-hidden="true">↻</span></span>
+              </span>
+              <span class="myth__face myth__back">
+                <span class="pill">Mito #4</span>
+                <span class="myth__label">La realidad</span>
+                <span class="myth__reality">La tarjeta no es para todo. Usala en compras que podés pagar a tiempo y dejá el efectivo o el débito para el resto.</span>
+                <span class="myth__hint myth__hint--back">Tocá para volver <span aria-hidden="true">↻</span></span>
+              </span>
+            </span>
+          </button>
+          <button class="myth" type="button" aria-pressed="false">
+            <span class="myth__inner">
+              <span class="myth__face myth__front">
+                <span class="pill">Mito #5</span>
+                <span class="myth__quote"><s>“Pagar solo el mínimo es suficiente.”</s></span>
+                <span class="myth__hint">Tocá para ver la realidad <span aria-hidden="true">↻</span></span>
+              </span>
+              <span class="myth__face myth__back">
+                <span class="pill">Mito #5</span>
+                <span class="myth__label">La realidad</span>
+                <span class="myth__reality">El mínimo evita el atraso, pero la deuda dura más y terminás pagando más. Pagá más del mínimo cuando podás.</span>
+                <span class="myth__hint myth__hint--back">Tocá para volver <span aria-hidden="true">↻</span></span>
+              </span>
+            </span>
+          </button>
+          <button class="myth" type="button" aria-pressed="false">
+            <span class="myth__inner">
+              <span class="myth__face myth__front">
+                <span class="pill">Mito #6</span>
+                <span class="myth__quote"><s>“Hay que usar todo el límite para que el banco te quiera.”</s></span>
+                <span class="myth__hint">Tocá para ver la realidad <span aria-hidden="true">↻</span></span>
+              </span>
+              <span class="myth__face myth__back">
+                <span class="pill">Mito #6</span>
+                <span class="myth__label">La realidad</span>
+                <span class="myth__reality">El límite es un tope, no una meta. Conocé tu límite y no lo sobrepases.</span>
+                <span class="myth__hint myth__hint--back">Tocá para volver <span aria-hidden="true">↻</span></span>
+              </span>
+            </span>
+          </button>
+          <button class="myth" type="button" aria-pressed="false">
+            <span class="myth__inner">
+              <span class="myth__face myth__front">
+                <span class="pill">Mito #7</span>
+                <span class="myth__quote"><s>“Si pago tarde una vez, no pasa nada.”</s></span>
+                <span class="myth__hint">Tocá para ver la realidad <span aria-hidden="true">↻</span></span>
+              </span>
+              <span class="myth__face myth__back">
+                <span class="pill">Mito #7</span>
+                <span class="myth__label">La realidad</span>
+                <span class="myth__reality">Pagar tarde puede generar cobros y afectar tu historial. Pagá siempre a tiempo.</span>
+                <span class="myth__hint myth__hint--back">Tocá para volver <span aria-hidden="true">↻</span></span>
+              </span>
+            </span>
+          </button>
+          <button class="myth" type="button" aria-pressed="false">
+            <span class="myth__inner">
+              <span class="myth__face myth__front">
+                <span class="pill">Mito #8</span>
+                <span class="myth__quote"><s>“Crédito y débito son lo mismo.”</s></span>
+                <span class="myth__hint">Tocá para ver la realidad <span aria-hidden="true">↻</span></span>
+              </span>
+              <span class="myth__face myth__back">
+                <span class="pill">Mito #8</span>
+                <span class="myth__label">La realidad</span>
+                <span class="myth__reality">Con débito gastás tu propio dinero. Con crédito gastás dinero del banco que después pagás.</span>
+                <span class="myth__hint myth__hint--back">Tocá para volver <span aria-hidden="true">↻</span></span>
+              </span>
+            </span>
+          </button>
+          <button class="myth" type="button" aria-pressed="false">
+            <span class="myth__inner">
+              <span class="myth__face myth__front">
+                <span class="pill">Mito #9</span>
+                <span class="myth__quote"><s>“Las tarjetas son solo para gente con mucho dinero.”</s></span>
+                <span class="myth__hint">Tocá para ver la realidad <span aria-hidden="true">↻</span></span>
+              </span>
+              <span class="myth__face myth__back">
+                <span class="pill">Mito #9</span>
+                <span class="myth__label">La realidad</span>
+                <span class="myth__reality">No hace falta ser rico, pero el banco evalúa tus ingresos. Puede ser el primer paso de tu historial.</span>
+                <span class="myth__hint myth__hint--back">Tocá para volver <span aria-hidden="true">↻</span></span>
+              </span>
+            </span>
+          </button>
+        </div>
+
+        <div class="myths__nav">
+          <div class="myths__dots" aria-hidden="true"></div>
+          <button class="btn btn--yellow myths__next" type="button">Deslizá <span aria-hidden="true">→</span></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TIPS ============ -->
+    <section class="section" id="tips">
+      <div class="container">
+        <header class="section__head">
+          <span class="pill">Úsala con cabeza</span>
+          <h2>Tips para un uso responsable del crédito</h2>
+          <p class="lead">Usar bien tu tarjeta es más fácil de lo que parece. Empezá por estas 3 reglas de oro:</p>
+        </header>
+
+        <div class="rules-row">
+          <div class="rules">
+            <p class="rules__title">3 reglas para usar tu tarjeta con responsabilidad.</p>
+            <ol class="rules__list">
+              <li><span class="rules__num">1</span>Pagá siempre a tiempo.</li>
+              <li><span class="rules__num">2</span>Conocé tu límite.</li>
+              <li><span class="rules__num">3</span>Revisá tus gastos cada mes.</li>
+            </ol>
+          </div>
+          <div class="celebra">
+            <p class="celebra__title">Cada pago puntual<br>suma a tu <span class="hl-blue">historial.</span></p>
+            <img src="assets/img/tucan-celebra.png" alt="Tucán celebrando" width="720" height="720" loading="lazy">
+          </div>
+        </div>
+
+        <h3 class="tips__subtitle">Más tips para que tu tarjeta trabaje a tu favor</h3>
+        <ul class="tips">
+          <li class="tip"><span class="tip__icon">01</span><div><h4>Pagá más del mínimo</h4><p>Lo ideal es pagar el total del mes. Si no podés, pagá lo más que puedas para que la deuda no crezca.</p></div></li>
+          <li class="tip"><span class="tip__icon">02</span><div><h4>Usala solo para lo que podés pagar</h4><p>Antes de comprar preguntate: ¿tengo con qué pagarlo este mes? Para lo demás, efectivo o débito.</p></div></li>
+          <li class="tip"><span class="tip__icon">03</span><div><h4>Hacé un presupuesto</h4><p>Sabé cuánto ganás y cuánto gastás cada mes. Así sabés cuánto podés usar de tu tarjeta sin estrés.</p></div></li>
+          <li class="tip"><span class="tip__icon">04</span><div><h4>Evitá sacar efectivo con la tarjeta</h4><p>Los adelantos de efectivo suelen tener costos más altos. Usá la tarjeta para compras planificadas.</p></div></li>
+          <li class="tip"><span class="tip__icon">05</span><div><h4>Cuidá tus datos</h4><p>Nunca compartas tu PIN, el código de seguridad ni las claves que te envíe el banco.</p></div></li>
+          <li class="tip"><span class="tip__icon">06</span><div><h4>Construí tu historial poco a poco</h4><p>Cada pago puntual suma a tu historial crediticio. Es tu carta de presentación para el futuro.</p></div></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ CIERRE ============ -->
+    <section class="cta">
+      <div class="container">
+        <div class="cta__card">
+          <div class="cta__text">
+            <h2>Tu independencia empieza con tus decisiones.</h2>
+            <div class="cta__actions">
+              <!-- TODO: confirmar con el BCR el enlace exacto de solicitud de la tarjeta -->
+              <a href="https://www.bancobcr.com" class="btn btn--navy" target="_blank" rel="noopener">Solicitá tu tarjeta BCR</a>
+              <small>Aplican condiciones y restricciones.</small>
+            </div>
+          </div>
+          <img class="cta__img" src="assets/img/tarjeta-bcr.png" alt="Tarjeta de crédito BCR con el tucán" width="720" height="452" loading="lazy">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ PIE ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__row">
+        <span class="footer__logo"><img src="assets/img/logo-bcr.png" alt="BCR – Somos el Banco de Costa Rica" width="131" height="50"></span>
+        <nav class="footer__links" aria-label="Secciones (pie de página)">
+          <a href="#que-es">¿Qué es?</a>
+          <a href="#como-funciona">Cómo funciona</a>
+          <a href="#mitos">Mitos</a>
+          <a href="#tips">Tips</a>
+        </nav>
+      </div>
+      <p class="footer__legal">Banco de Costa Rica · Contenido educativo sobre el uso responsable de la tarjeta de crédito. Aplican condiciones y restricciones.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
